@@ -72,7 +72,8 @@
 
                                     Track Customer Feedback: Export the responses per survey: <b>Unlimited.</b>
                                 </p>
-                                <a href="#" type="button" class="btn mb-3 text-white mt-3"
+                                <a href="#" type="button" class="btn mb-3 text-white mt-3" data-toggle="modal"
+                                    data-target="#individual_plan"
                                     style="background: linear-gradient(147.15deg, #2e028b 30.17%, #5bff40 100.01%);border: none !important;">SUBSCRIBE
                                     NOW
                                 </a>
@@ -97,7 +98,8 @@
 
                                     Track Customer Feedback: Export the responses per survey: <b>Unlimited.</b>
                                 </p>
-                                <a href="#" type="button" class="btn mb-3 text-white mt-3"
+                                <a href="#" type="button" class="btn mb-3 text-white mt-3" data-toggle="modal"
+                                    data-target="#small_business"
                                     style="background: linear-gradient(147.15deg, #2e028b 30.17%, #5bff40 100.01%);border: none !important;">SUBSCRIBE
                                     NOW
                                 </a>
@@ -111,7 +113,7 @@
                         <div class="card-body">
                             <div class="card_text">
                                 <div class="card_head">
-                                    <a href="#" class="card_link">Small Business</a>
+                                    <a href="#" class="card_link">Corporate Plan</a>
                                     <p>$75.00 /month <br> $765.0 /year</p>
                                 </div>
                                 <p style="font-size: 1rem;">Tools for corporate to create instant
@@ -125,7 +127,8 @@
 
                                     Track Customer Feedback: Export the responses per survey: <b>Unlimited.</b>
                                 </p>
-                                <a href="#" type="button" class="btn mb-3 text-white mt-3"
+                                <a href="#" type="button" class="btn mb-3 text-white mt-3" data-toggle="modal"
+                                    data-target="#corporate_plan"
                                     style="background: linear-gradient(147.15deg, #2e028b 30.17%, #5bff40 100.01%);border: none !important;">SUBSCRIBE
                                     NOW
                                 </a>
@@ -467,6 +470,119 @@
         </div>
     </footer>
 
+    <!-- Indiviual Plan Modal -->
+    <div class="modal fade" id="individual_plan" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background: #041331;">
+                <div class="modal-header">
+                    <h3 class="modal-title text-white text-center" id="staticBackdropLabel">Individual Plan</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="font-size: 2rem; color:#fff;">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-lg" placeholder="Name*">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control form-control-lg" placeholder="Email*">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control form-control-lg" placeholder="Mobile Phone*">
+                        </div>
+                        <fieldset disabled>
+                            <div class="form-group">
+                                <input type="text" id="disabledTextInput" class="form-control form-control-lg"
+                                    placeholder="$23.0 /month & $259.0 /year">
+                            </div>
+                        </fieldset>
+                        <button type="button" class="btn btn-lg btn-block mb-3 text-white"
+                            style="background: linear-gradient(147.15deg, #2e028b 30.17%, #5bff40 100.01%);border: none !important;">SUBSCRIBE
+                            NOW
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Small Business Modal -->
+    <div class="modal fade" id="small_business" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background: #041331;">
+                <div class="modal-header">
+                    <h3 class="modal-title text-white text-center" id="staticBackdropLabel">Small Business</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="font-size: 2rem; color:#fff;">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-lg" placeholder="Name*">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control form-control-lg" placeholder="Email*">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control form-control-lg" placeholder="Mobile Phone*">
+                        </div>
+                        <fieldset disabled>
+                            <div class="form-group">
+                                <input type="text" id="disabledTextInput" class="form-control form-control-lg"
+                                    placeholder="$45.0 /month & $500.0 /year">
+                            </div>
+                        </fieldset>
+                        <button type="button" class="btn btn-lg btn-block mb-3 text-white"
+                            style="background: linear-gradient(147.15deg, #2e028b 30.17%, #5bff40 100.01%);border: none !important;">SUBSCRIBE
+                            NOW
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Small Business Modal -->
+    <div class="modal fade" id="corporate_plan" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background: #041331;">
+                <div class="modal-header">
+                    <h3 class="modal-title text-white text-center" id="staticBackdropLabel">Corporate Plan</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="font-size: 2rem; color:#fff;">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-lg" placeholder="Name*">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control form-control-lg" placeholder="Email*">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control form-control-lg" placeholder="Mobile Phone*">
+                        </div>
+                        <fieldset disabled>
+                            <div class="form-group">
+                                <input type="text" id="disabledTextInput" class="form-control form-control-lg"
+                                    placeholder="$75.00 /month & $765.0 /year">
+                            </div>
+                        </fieldset>
+                        <button type="button" class="btn btn-lg btn-block mb-3 text-white"
+                            style="background: linear-gradient(147.15deg, #2e028b 30.17%, #5bff40 100.01%);border: none !important;">SUBSCRIBE
+                            NOW
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
